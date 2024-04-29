@@ -2,4 +2,4 @@
 
 Most of the code is distributed into tasks and work via tests, not the main method.
 
-Some of the algorithms have move than one solution.
+Some of the algorithms have more than one solution.
