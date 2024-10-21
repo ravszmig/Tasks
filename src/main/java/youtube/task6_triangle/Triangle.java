@@ -5,15 +5,12 @@ public class Triangle {
         StringBuilder result = new StringBuilder();
         for (int i = 1; i <= 5; i++) {
             StringBuilder b = new StringBuilder();
-            for (int j = 0; j < i; j++)
-            {
+            for (int j = 0; j < i; j++) {
                 b.append("*");
             }
-            System.out.println(b);
-
-            result.append(b);
-            result.append(System.getProperty("line.separator"));
+            result.append(b).append("\n");
         }
-        return result.toString();
+        // Remove the trailing newline
+        return result.toString().trim();
     }
 }

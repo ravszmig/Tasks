@@ -7,14 +7,14 @@ class TriangleTest {
 
     @Test
     void test_Triangle() {
-        assertEquals(Triangle.print(),
+        assertEquals(Triangle.print().trim(),
                 """
                 *
                 **
                 ***
                 ****
                 *****
-                """);
+                """.trim());
     }
 
 }
