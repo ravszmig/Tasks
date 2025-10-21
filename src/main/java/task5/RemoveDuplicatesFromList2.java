@@ -1,6 +1,6 @@
 package task5;
 
-import java.util.*;
+import java.util.List;
 
 public class RemoveDuplicatesFromList2 {
 

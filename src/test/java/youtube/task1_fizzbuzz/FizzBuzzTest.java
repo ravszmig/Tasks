@@ -1,7 +1,6 @@
 package youtube.task1_fizzbuzz;
 
 import org.junit.jupiter.api.Test;
-import task8.ShoppingOptions;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

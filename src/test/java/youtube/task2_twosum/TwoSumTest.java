@@ -1,11 +1,8 @@
 package youtube.task2_twosum;
 
 import org.junit.jupiter.api.Test;
-import youtube.task1_fizzbuzz.FizzBuzz;
 
-import java.util.Arrays;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class TwoSumTest {
 
